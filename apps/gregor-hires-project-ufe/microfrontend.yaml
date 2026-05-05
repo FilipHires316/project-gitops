@@ -1,0 +1,9 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: MicroFrontend
+metadata:
+  name: gregor-hires-project-ufe
+spec:
+  frontendClass: md-shell # default obsiahnutý v základe polyfea md-shell
+  service:
+    name: gregor-hires-project-ufe # referencia na službu odkiaľ sa má načítať modul
+  modulePath: build/project-ufe.esm.js # cesta v rámci služby kde sa modul nachádza

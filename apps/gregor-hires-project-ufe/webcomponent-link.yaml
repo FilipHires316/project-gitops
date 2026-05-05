@@ -1,0 +1,25 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: gregor-hires-project-ufe-link
+spec:
+  microFrontend: polyfea-md-shell # referencia na , z ktorého sa načíta element
+  element: polyfea-md-app # element, ktorý bude vložený na stránku
+  attributes: # atribúty elementu polyfea-md-app
+    - name: headline
+      value: Evidencia Pacientov a Predpis liekov / gregor-hires-project
+    - name: short-headline
+      value: Evidencia Pacientov a Predpis liekov / gregor-hires-project
+    - name: supporting-text
+      value: |
+        Umožnuje spravovať evidenciu lekára a predpisovať lieky
+    - name: material-icon
+      value: home_health
+    - name: href # presmerovanie po kliknutí na element polyfea-md-app
+      value: ./gregor-hires-project-evidence
+  priority: 10
+  displayRules: # pravidlá, kde sa má element vložiť v obálke
+    - anyOf:
+      - context-name: applications
+      - context-name: rail-content
+      - context-name: drawer-content
