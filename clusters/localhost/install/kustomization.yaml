@@ -9,3 +9,6 @@ labels:
 
 resources:
 - ../../../apps/gregor-hires-project-ufe
+
+components:
+- ../../../components/version-developers
