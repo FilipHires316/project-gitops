@@ -4,7 +4,10 @@ metadata:
   name: gregor-hires-project-ufe-content
 spec:
   microFrontend: gregor-hires-project-ufe
-  element: gregor-hires-project-evidence-list
+  element: gregor-hires-project-evidence-app
+  attributes:
+    - name: base-path
+      value: /gregor-hires-project-evidence/
   displayRules:
     - allOf:
       - context-name: main-content
