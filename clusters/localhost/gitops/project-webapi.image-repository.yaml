@@ -1,0 +1,8 @@
+apiVersion: image.toolkit.fluxcd.io/v1
+kind: ImageRepository
+metadata:
+  name: project-webapi
+  namespace: wac-hospital
+spec:
+  image: dastan16/project-evidence-webapi
+  interval: 1m0s

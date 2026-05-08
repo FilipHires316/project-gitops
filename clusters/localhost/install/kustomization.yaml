@@ -9,6 +9,11 @@ labels:
 
 resources:
 - ../../../apps/gregor-hires-project-ufe
+- ../../../apps/gregor-hires-project-webapi
+
+patches:
+- path: patches/project-webapi.service.yaml
 
 components:
 - ../../../components/version-developers
+- https://github.com/FilipHires316/project-webapi//deployments/kustomize/components/mongodb

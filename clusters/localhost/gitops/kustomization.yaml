@@ -14,4 +14,6 @@ resources:
 - git-repository.yaml
 - project-ufe.image-repository.yaml
 - project-ufe.image-policy.yaml
+- project-webapi.image-repository.yaml
+- project-webapi.image-policy.yaml
 - image-update-automation.yaml
