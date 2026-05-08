@@ -7,7 +7,7 @@ labels:
 - pairs:
     app.kubernetes.io/part-of: wac-hospital
     app.kubernetes.io/name: gregor-hires-project-evidence
-    wac-fiit.github.io/project: Gregor Híreš - Evidencia / Predpisy
+    wac-fiit.github.io/project: gregor-hires-evidencia-predpisy
   includeSelectors: true
   includeTemplates: true
 

@@ -1,7 +1,7 @@
 apiVersion: wac-fiit.github.io/v1alpha1
 kind: Project
 metadata:
-  name: Gregor Híreš - Evidencia / Predpisy # napr. <pfx>-ambulance-wl
+  name: gregor-hires-evidencia-predpisy # napr. <pfx>-ambulance-wl
 spec:
   title: Evidencia lekára a Predpis liekov # napr. "Zoznam čakajúcich <pfx>"
   description: Umožňuje lekárovi spravovať evidenciu a predpisovať lieky pacientom # napr. "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii"
