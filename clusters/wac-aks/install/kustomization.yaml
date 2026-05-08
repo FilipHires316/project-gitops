@@ -12,6 +12,7 @@ labels:
 
 resources:
 - ../../../apps/gregor-hires-project-ufe
+- ../../../apps/gregor-hires.project-webapi
 
 
 components:
