@@ -3,7 +3,7 @@ kind: Project
 metadata:
   name: gregor-hires-evidencia-predpisy # napr. <pfx>-ambulance-wl
 spec:
-  title: Evidencia lekára a Predpis liekov # napr. "Zoznam čakajúcich <pfx>"
+  title: Gregor Hires Evidencia Predpisy # napr. "Zoznam čakajúcich <pfx>"
   description: Umožňuje lekárovi spravovať evidenciu a predpisovať lieky pacientom # napr. "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii"
   authors: "Filip Híreš, Martin Gregor" # Zadajte mená autorov
   azureLink: "https://gregor-hires-project-dkbbf2g6effsggcr.westeurope-01.azurewebsites.net/"
