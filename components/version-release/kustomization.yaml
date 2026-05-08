@@ -3,7 +3,7 @@ kind: Component
 images:
 - name: dastan16/project-ufe
   newName: dastan16/project-ufe
-  newTag: 1.1.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+  newTag: 1.1.2  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
 - name: dastan16/project-evidence-webapi
   newName: dastan16/project-evidence-webapi
-  newTag: 1.1.0
+  newTag: 1.1.1
