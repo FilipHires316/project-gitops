@@ -1,0 +1,14 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gregor-hires-project-webapi
+spec:
+  template:
+    spec:
+      containers:
+        - name: openapi-ui
+          env:
+            - name: URL
+              value: /gregor-hires-openapi
+            - name: BASE_URL
+              value: /gregor-hires-openapi-ui
