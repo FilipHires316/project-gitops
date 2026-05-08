@@ -1,0 +1,12 @@
+apiVersion: wac-fiit.github.io/v1alpha1
+kind: Project
+metadata:
+  name: Gregor Híreš - Evidencia / Predpisy # napr. <pfx>-ambulance-wl
+spec:
+  title: Evidencia lekára a Predpis liekov # napr. "Zoznam čakajúcich <pfx>"
+  description: Umožňuje lekárovi spravovať evidenciu a predpisovať lieky pacientom # napr. "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii"
+  authors: "Filip Híreš, Martin Gregor" # Zadajte mená autorov
+  azureLink: "https://gregor-hires-project-dkbbf2g6effsggcr.westeurope-01.azurewebsites.net/"
+  frontendRepoUrl: "https://github.com/FilipHires316/project-ufe"
+  backendRepoUrl: "https://github.com/FilipHires316/project-webapi"
+  gitopsRepoUrl: "https://github.com/FilipHires316/project-gitops"
