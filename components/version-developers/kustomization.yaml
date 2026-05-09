@@ -6,4 +6,4 @@ images:
   newTag: main.20260509.1048 # {"$imagepolicy": "wac-hospital:project-webapi:tag"}
 - name: dastan16/project-ufe
   newName: dastan16/project-ufe # {"$imagepolicy":  "wac-hospital:project-ufe:name"}
-  newTag: main.20260509.1211 # {"$imagepolicy": "wac-hospital:project-ufe:tag"}
+  newTag: main.20260509.1312 # {"$imagepolicy": "wac-hospital:project-ufe:tag"}
